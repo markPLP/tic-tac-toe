@@ -52,7 +52,7 @@ body {
 @keyframes pop { from { transform: scale(0.2); opacity: 0; } to { transform: scale(1); opacity: 1; } }
 .game__actions { display: flex; justify-content: center; flex-wrap: wrap; gap: var(--gap); margin-top: 20px; }
 .game__reset { padding: 12px 28px;
-  font: inherit; font-weight: 700; color: #fff;
+  font: inherit; font-weight: 700; color: var(--bg);
   background: var(--accent); border: 0; border-radius: 999px; cursor: pointer;
 }
 .game__reset--secondary { background: transparent; border: 2px solid var(--muted); color: var(--text); }
